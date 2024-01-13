@@ -1,12 +1,20 @@
 /* CSS Boilerplate Code */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=VT323&display=swap");
 
+/* Custom Font - Kajiro */
+@font-face {
+  font-family: "Kajiro";
+  src: url("./fonts/kajiro-font.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
 /* Reset CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 /* Basic Styling */
@@ -106,7 +114,7 @@ body {
   top: 100%;
   left: 0;
   line-height: 0.9;
-  font-family: "kajiro";
+  font-family: "Kajiro", sans-serif;
   color: #fff;
   font-weight: 100;
   font-size: 11vw;
@@ -118,7 +126,7 @@ body {
   padding: 0.8vw 3vw;
   font-size: 3vw;
   margin-top: 2vw;
-  font-family: "kajiro";
+  font-family: "Kajiro", sans-serif;
 }
 
 #hero-right {
